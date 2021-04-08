@@ -1,0 +1,11 @@
+{
+    "name": "antoine/composer",
+    "description": "quete composer",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
