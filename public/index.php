@@ -1,8 +1,8 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
-use App\WCS;
+use HelloWorld\SayHello;
 
 
-$hello = new WCS\Hello();
-echo $hello->talk();
+$hello = new SayHello();
+echo $hello->world();
